@@ -55,7 +55,12 @@
             <artifactId>spring-retry</artifactId>
             <scope>compile</scope>
         </dependency>
-
+        <!-- Source: https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-actuator -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator</artifactId>
+            <scope>compile</scope>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
